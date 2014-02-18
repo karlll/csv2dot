@@ -14,6 +14,32 @@ For an adjacency matrix for N nodes:
 
 ### Example
 
+in.csv:
+
+	one,two,three,four
+	0,1,1,0
+	0,0,0,1
+	0,0,0,0
+	1,0,0,0
+
+To DOT format:	
+
+	$ ./csv2dot digraph in.csv test_graph > out.dot
+
+Use ```dot``` to convert to  output format (here PNG):
+
+	$ dot out.dot -Tpng -O
+
 
 ## Usage
+
+	$ ./csv2dot
+	
+	Commands:
+  	csv2dot.rb digraph CSV_FILE GRAPH_NAME  # Create a digraph called GRAPH_NAME from adjacency matrix in CSV_FILE
+  	csv2dot.rb help [COMMAND]               # Describe available commands or one specific command
+  	
+
+
+
 
