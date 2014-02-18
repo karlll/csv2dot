@@ -30,6 +30,9 @@ Use ```dot``` to convert to  output format (here PNG):
 
 	$ dot out.dot -Tpng -O
 
+Result:
+
+![](https://raw2.github.com/karlll/csv2dot/master/out.png)
 
 ## Usage
 
