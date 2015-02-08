@@ -32,7 +32,7 @@ Use ```dot``` to convert to  output format (here PNG):
 
 Result:
 
-![](https://raw2.github.com/karlll/csv2dot/master/out.png)
+![](https://raw.githubusercontent.com/karlll/csv2dot/master/out.png)
 
 ## Usage
 
